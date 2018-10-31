@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.img{
+	width: 100%
+}
+/* Header style */
+.header{
+	background: #efefef;
+	-webkit-box-shadow: 0 10px 6px -6px #ddd;
+    -moz-box-shadow: 0 10px 6px -6px #ddd;
+    box-shadow: 0 10px 6px -6px #ddd;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.head{
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+    line-height: 90px;
+}
+.leftarrow, .cancel{
+	font-size:30px;
+	color:lightgray;
+	display: inline-block;
+}
+.logo{
+	margin-left: 50px;
+	margin-right: auto;
+	padding-top: 10px;
+}
+/* Header End */
+
+/* Main content style */
+.icons{
+	display: block;
+}
+.main-content{
+	width: 85%;
+	margin: 0 auto;
+	padding: 60px 0px;
+}
+.main-heading{
+	width:100%;
+	height:auto;
+	color:#5a5a5a;
+}
+.heading{
+	font-size: 2.1rem;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+.vsmall-text{
+	font-size: 0.5rem;
+	text-align: center;
+	margin-top: 2px;
+}
+.goal-section{
+	padding-top: 20px;
+}
+.five-grid{
+	width:100%;
+	height:auto;
+	display:flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+}
+.goals, .targetamt, .targetdate, .invest-type, .invest-needed{
+	width:auto;
+	height:auto;
+	justify-content: space-between; 
+}
+.img{ width: 90%;display: block; }
+.icon{ display: inline-block; }
+.icon-d{ display: none; }
+.icon-v{ visibility: hidden; }
+.text{ display: inline-block; }
+
+.large-text{
+	color: #634d4d;
+	margin:0px;
+	font-size: 2rem;
+	letter-spacing: 0.5px;
+}
+.small-text{
+	font-size: 13px;
+	margin-top: 0px;
+	color: #948e8e;
+}
+.pie-plan{
+	padding-top: 40px;
+}
+.outer-circle{
+	margin:auto;
+	display: block;
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+	border-radius: 50%;
+	position: relative;
+	background: linear-gradient( -90deg, #13bc9c, #13bc9c 50%,#425b77 50% );
+}
+.inner-circle{
+	display: table-cell;
+	height: 190px;
+	width: 190px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.circle-text {
+	display: table-cell;
+	text-align: center;
+	font-size: 22px;
+	font-family: arial;
+	font-weight: normal;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.green_text{ 
+	color: #13bc9c;
+	margin: 0px;
+}
+.green_no{
+	color: #13bc9c; 
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.purple_text{
+	color: #425b77;
+	margin: 0px;
+}
+.purple_no{
+	color: #425b77;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.vvsmall-text{
+	font-size: 9px;
+	margin-top: 10px;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.right_side{
+	width: 28%;
+	height: auto;
+}
+.left_side{
+	width: 70%;
+	height: auto;
+}
+
+.fund{
+	width: 100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.aditya_fund{
+	width: 100%;
+	height:auto;
+	border: 1px solid #ebdfe2;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.active-border{
+	border-left: 3px solid #0a866e;
+}
+.fund_name{
+	padding: 8px;
+	font-size: 0.9rem;color: #634d4d;
+}
+.cap{
+	display:inline-block;
+	width: 30%;
+	padding-left: 10px;
+	font-size: 0.8rem;
+}
+.min-amt{
+	display:inline-block;
+	width: 50%;
+	padding-left: 10px;
+	font-size: 0.8em;
+}
+.fund-data {
+	display: inline-block;
+	width: 80%;
+}
+.solidcircle {
+  height:8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.amount{width: 15%;}
+.rupee{
+	font-size: 1.6em; 
+	color: #fff;
+	padding: 20px;
+	align-items: center;
+	text-align: center;
+}
+.text-right-align {
+    text-align: right;
+}
+.green{
+	background: #0a866e;
+	border: 1px solid #0a866e;
+}
+.lgreen{
+	background: #13bc9c;
+	border: 1px solid #13bc9c;
+}
+.purple{
+	background: #425b77;
+	border: 1px solid #425b77;
+}
+
+.investment-btn {
+	margin: 30px auto;
+	text-align: center;
+}
+.start-btn {
+	display: inline-block;
+	padding: 12px 30px;
+	color: #fff;
+	background-color: #12d6b0;
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+	transition: all .5s ease;
+}
+.start-btn:hover {
+	background-color: #425b77;
+	color: #fff;
+}
+
+/* Responsive Style*/
+@media screen and (max-width: 1024px) {
+	.large-text {
+		font-size: 1.4rem;
+	}
+	.five-grid {
+		display: block;
+		columns: 2;
+	}
+	.content {
+		flex-flow: column;
+	}
+	.right_side {
+		text-align: center;
+	}
+	.right_side,.left_side {
+		width: 100%;
+	}
+	.outer-circle {
+		margin: auto;
+	}
+	.aditya_fund {
+		margin-bottom: 10px;
+	}
+	.goal-grid-item {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.aditya_fund {
+		flex-flow: column;
+	}
+	.amount {
+		width: 100%;
+	}
+	.detail-plan {
+		padding-bottom: 10px;
+	}
+	.start-btn {
+		padding: 12px 15px;
+	}
+}
